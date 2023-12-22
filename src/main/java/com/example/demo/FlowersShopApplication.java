@@ -11,6 +11,7 @@ public class FlowersShopApplication {
                 System.out.println("Hello new project");
 		System.out.println("Hello new project");
 		System.out.println("test");
+		System.out.println("test2");
 
                 
 	}
