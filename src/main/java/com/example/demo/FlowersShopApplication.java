@@ -10,6 +10,7 @@ public class FlowersShopApplication {
 		SpringApplication.run(FlowersShopApplication.class, args);
                 System.out.println("Hello new project");
 		System.out.println("Hello new project");
+		System.out.println("test");
 
                 
 	}
