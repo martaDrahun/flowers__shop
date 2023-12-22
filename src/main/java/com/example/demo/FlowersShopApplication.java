@@ -9,6 +9,7 @@ public class FlowersShopApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FlowersShopApplication.class, args);
                 System.out.println("Hello new project");
+		System.out.println("Hello new project");
 
                 
 	}
