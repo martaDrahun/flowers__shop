@@ -1,7 +1,7 @@
 package com.example.demo.controller.auth;
 
 
-import com.example.demo.api.model.security.RegistrationBody;
+import com.example.demo.api.model.RegistrationBody;
 import com.example.demo.exception.UserAlreadyExistsException;
 import com.example.demo.service.UserService;
 import jakarta.validation.Valid;

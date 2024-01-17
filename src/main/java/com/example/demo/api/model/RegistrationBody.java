@@ -1,4 +1,4 @@
-package com.example.demo.api.model.security;
+package com.example.demo.api.model;
 
 import jakarta.validation.constraints.*;
 

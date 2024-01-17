@@ -1,4 +1,4 @@
-package com.example.ecommercebackend.api.model.security;
+package com.example.demo.api.model.security;
 
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
