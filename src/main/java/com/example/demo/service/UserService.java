@@ -33,4 +33,14 @@ public class UserService {
         return localUserDAO.save(user);
 
     }
+
+    public boolean userHasPermissionToUser(LocalUser user, Long id) {
+        return user.getId() == id;
+    }
+    private static final String[] AUTH_WHITELIST = {
+            "/swagger-resources/**",
+            "/swagger-ui.html",
+            "/v2/api-docs",
+            "/webjars/**"
+    };
 }

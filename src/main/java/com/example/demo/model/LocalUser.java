@@ -31,6 +31,12 @@ public class LocalUser {
     @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE, orphanRemoval = true)
     private List<Address> addresses = new ArrayList<>();
 
+    @Column(name = "email_verified", nullable = false)
+    private Boolean emailVerified = false;
+
+    public Boolean isEmailVerified() {
+        return emailVerified;
+    }
     public List<Address> getAddresses() {
         return addresses;
     }
